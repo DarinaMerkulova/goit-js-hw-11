@@ -5,7 +5,7 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import './css/styles.css'
 import { refs } from './js/refs';
 import { renderGalleryMarkup } from './js/createmarkup';
-import { fetchImages } from './js/fetchImages';
+import { fetchImages } from './js/fetchimages';
 
 refs.form.addEventListener('submit', onFormSubmit);
 refs.loadMoreBtn.addEventListener('click', onClickBtnLoadMore);
